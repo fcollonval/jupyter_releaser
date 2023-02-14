@@ -21,6 +21,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
+        node-version: ["18.13.0"]
         python-version: ["3.10"]
     steps:
       - name: Checkout
